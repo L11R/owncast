@@ -125,6 +125,7 @@ func (t *Transcoder) getString() string {
 		"-hide_banner",
 		"-loglevel warning",
 		"-i ", t.input,
+    "-vaapi_device /dev/dri/renderD128",
 
 		t.getVariantsString(),
 
